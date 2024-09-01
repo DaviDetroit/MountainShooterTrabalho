@@ -29,15 +29,16 @@ ENTITY_SPEED = {
     'Level3Bg3': 3,
     'Level3Bg4': 4,
     'Player1': 3,
-    'Player1Shot': 1,
+    'Player1Shot': 8,
     'Player2': 3,
     'Player2Shot': 3,
     'Enemy1': 1,
     'Enemy1Shot': 5,
     'Enemy2': 1,
-    'Enemy2Shot': 2,
+    'Enemy2Shot': 7,
     'Enemy3': 1,
-    'Enemy3Shot': 2,
+    'Enemy3Shot': 5,
+
 }
 
 ENTITY_HEALTH = {
@@ -62,11 +63,11 @@ ENTITY_HEALTH = {
     'Player1Shot': 1,
     'Player2': 300,
     'Player2Shot': 1,
-    'Enemy1': 50,
+    'Enemy1': 200,
     'Enemy1Shot': 1,
-    'Enemy2': 60,
+    'Enemy2': 300,
     'Enemy2Shot': 1,
-    'Enemy3': 70,
+    'Enemy3': 400,
     'Enemy3Shot': 1,
 
 }
@@ -94,11 +95,11 @@ ENTITY_DAMAGE = {
     'Player2': 1,
     'Player2Shot': 20,
     'Enemy1': 1,
-    'Enemy1Shot': 20,
+    'Enemy1Shot': 30,
     'Enemy2': 1,
-    'Enemy2Shot': 15,
+    'Enemy2Shot': 50,
     'Enemy3': 1,
-    'Enemy3Shot': 20
+    'Enemy3Shot': 200
 }
 
 ENTITY_SCORE = {
@@ -127,7 +128,7 @@ ENTITY_SCORE = {
     'Enemy1Shot': 0,
     'Enemy2': 125,
     'Enemy2Shot': 0,
-    'Enemy3': 150,
+    'Enemy3': 300,
     'Enemy3Shot': 0
 }
 
@@ -136,7 +137,7 @@ ENTITY_SHOT_DELAY = {
     'Player2': 15,
     'Enemy1': 100,
     'Enemy2': 200,
-    'Enemy3': 300,
+    'Enemy3': 120,
 }
 
 # M
@@ -163,8 +164,9 @@ SPAWN_TIME = 4000
 
 # T
 TIMEOUT_STEP = 100  # 100ms
-TIMEOUT_LEVEL = 20000  # 20s
-TIMEOUT_LEVEL3 = TIMEOUT_LEVEL * 2
+TIMEOUT_LEVEL = 20000
+
+
 # W
 WIN_WIDTH = 576
 WIN_HEIGHT = 324
